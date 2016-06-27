@@ -225,7 +225,7 @@ void loop(){
       clawStatus = -1;
       clawTime = micros();
     }else{
-      if(micros()-clawTime>1500000){
+      if(micros()-clawTime>1200000){
         dcClaw.run(0);
       }
     }
